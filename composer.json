@@ -16,5 +16,8 @@
         "phpunit/phpunit": "*@dev",
         "mockery/mockery": "*@dev",
         "fzaninotto/faker": "*@dev"
+    },
+    "autoload": {
+        "classmap": ["src"]
     }
 }
