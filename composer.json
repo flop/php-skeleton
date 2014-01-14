@@ -21,9 +21,12 @@
         "covex-nn/phpcb": "*@dev",
         "phpunit/phpunit": "*@dev",
         "mockery/mockery": "*@dev",
-        "fzaninotto/faker": "*@dev"
+        "fzaninotto/faker": "*@dev",
+        "lstrojny/phpunit-clever-and-smart": "*@dev"
     },
     "autoload": {
-        "classmap": ["src"]
+        "psr-4": {
+            "AdamBrett\\Skeleton\\": "src/"
+        }
     }
 }
