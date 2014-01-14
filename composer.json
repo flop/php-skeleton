@@ -25,6 +25,8 @@
         "lstrojny/phpunit-clever-and-smart": "*@dev"
     },
     "autoload": {
-        "classmap": ["src"]
+        "psr-4": {
+            "AdamBrett\\Skeleton\\": "src/"
+        }
     }
 }
